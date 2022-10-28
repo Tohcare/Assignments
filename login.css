@@ -4,7 +4,7 @@ html, body {
 }
 .container{
   border: 1.5px solid #514d4d;
-  height: 500px;
+  height: 300px;
   width: 350px;
   margin-left: 50px;
   margin-top: 20px;
@@ -14,40 +14,35 @@ html, body {
 h3{
   padding-left: 20px;
   margin-bottom: -10px;
+  text-align: center;
+  color: blue;
 }
 
 p{
   padding-left: 20px;
+  text-align: center;
 }
-.firstName{
-  padding-left: 20px;
-  margin-top: 20px;
-}
-.lastName{
-  padding-left: 20px;
-  padding-top: 20px;
-}
-.phoneNo{
-  padding-left: 20px;
-  padding-top: 20px;
-}
+
 .email{
   padding-left: 20px;
   padding-top: 20px;
 }
-.gender{
+.login{
+text-align: center;
+/* padding-top: 80px; */
+border-radius: 2px;
+/* border: 1.5px solid #514d4d; */
+margin-top: 20px;
+/* border-width: 20px; */
+  background-color: #2b00ff;
+  color: white;
+}
+.pass{
   padding-left: 20px;
   padding-top: 20px;
 }
-.date{
+.forgetPassword{
+/*  margin-top: -70px; */
   padding-left: 20px;
-  padding-top: 20px;
-}
-.color{
-  padding-left: 20px;
-  padding-top: 20px;
-}
-.submit{
-  text-align: center;
-  padding-top: 20px;
+  margin-top: 20px;
 }
